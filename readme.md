@@ -30,4 +30,4 @@ npm run reset
 npm test
 ```
 
-Note: there's just one unit test an example
+Note: there's just one unit test as an example.
