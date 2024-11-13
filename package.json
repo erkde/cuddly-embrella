@@ -1,0 +1,28 @@
+{
+  "name": "flo-tech-assess",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "reset": "tsx ./src/cli/reset.ts",
+    "seed": "tsx ./src/cli/seed.ts",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "csv-parser": "^3.0.0",
+    "dayjs": "^1.11.13",
+    "prisma": "^5.22.0",
+    "sqlite": "^5.1.1",
+    "tsx": "^4.19.2"
+  }
+}
